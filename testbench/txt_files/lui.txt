@@ -1,0 +1,4 @@
+lui $6, 0xF001
+addi $2, $6, 8
+jr $0
+nop   #return 8

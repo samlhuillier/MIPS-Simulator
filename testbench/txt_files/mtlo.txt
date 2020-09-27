@@ -1,0 +1,5 @@
+addi $3, $0, 31
+mtlo $3
+mflo $2
+jr $0
+nop		#return 31

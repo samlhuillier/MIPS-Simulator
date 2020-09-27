@@ -1,0 +1,5 @@
+addi $3, $0, 4
+addi $4, $0, 10
+sub $2, $3, $4
+jr $0
+nop   #return 250

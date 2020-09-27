@@ -1,0 +1,8 @@
+addi $3, $0, 0x0
+bgtz $3, $3, here
+jr $0 #should end here, return 0
+here:
+  addi $4, $0, 0x2
+  addu $2, $3, $4
+  jr $0
+nop

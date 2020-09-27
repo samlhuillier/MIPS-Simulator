@@ -1,0 +1,6 @@
+addi $3, $0, 0x1000
+addi $4, $0, 0x5FFFF
+sw $4, 0($3)
+lh $2, 2($3)
+jr $0
+nop   #return 5

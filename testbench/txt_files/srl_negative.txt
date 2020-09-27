@@ -1,0 +1,4 @@
+addi $3, $0, 0xFFFFFFF4
+srl $2, $3, 29
+jr $0
+nop   #return 7

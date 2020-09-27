@@ -1,0 +1,5 @@
+addi $3, $0, 0xFFFFFFFA
+addi $4, $0, 28
+srlv $2, $3, $4
+jr $0
+nop   #return 15

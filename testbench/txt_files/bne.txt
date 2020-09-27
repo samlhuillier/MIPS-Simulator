@@ -1,0 +1,12 @@
+addi $6, $0, 0x1
+addi $7, $0, 0x2
+addi $8, $0, 0x9
+bne $6, $7, loop
+nop
+jr $0
+nop
+loop:
+  addu $2, $6, $7
+  bne $2, $8, loop
+  jr $0
+nop     #return 9

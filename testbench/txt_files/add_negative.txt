@@ -1,0 +1,5 @@
+addi $3, $0, 0xFFFFFFFF
+addi $4, $0, 0xFFFFFFFF
+add $2,$3,$4
+jr $0
+nop			#TEST NEGATIVE, return 254(-2)

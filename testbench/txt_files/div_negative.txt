@@ -1,0 +1,6 @@
+addi $3, $0, 0xFFFFFFFA
+addi $4, $0, 0x1
+div $3, $4
+mflo $2
+jr $0
+nop		#return 250

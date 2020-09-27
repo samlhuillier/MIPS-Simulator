@@ -1,0 +1,5 @@
+addi $3, $0, 0x7FFFFFFF
+addi $4, $0, 0x4
+addu $2, $3, $4
+jr $0
+nop   #return 3

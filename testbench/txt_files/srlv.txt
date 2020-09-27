@@ -1,0 +1,5 @@
+addi $3, $0, 12
+addi $4, $0, 2
+srlv $2, $3, $4
+jr $0
+nop   #return 3

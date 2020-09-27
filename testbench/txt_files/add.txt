@@ -1,0 +1,5 @@
+addi $3, $0, 0x7
+addi $4, $0, 0x8
+add $2, $3, $4
+jr $0
+nop   #return 15

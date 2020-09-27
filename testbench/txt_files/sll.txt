@@ -1,0 +1,4 @@
+addi $5, $0, 0x1
+sll $2, $5, 4
+jr $0
+nop   #return 16

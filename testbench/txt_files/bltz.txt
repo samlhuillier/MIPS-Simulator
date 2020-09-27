@@ -1,0 +1,8 @@
+addi $3, $0, 0x0
+bltz $3, $3, here
+jr $0   #return 0, end here
+here:
+  li $4, 0x2
+  addu $2, $3, $4
+  jr $0
+nop

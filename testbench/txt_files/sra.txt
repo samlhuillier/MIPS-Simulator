@@ -1,0 +1,4 @@
+addi $5, $0, 0x1F
+sra $2, $5, 3
+jr $0
+nop   #return 2

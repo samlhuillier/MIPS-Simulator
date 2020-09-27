@@ -1,0 +1,6 @@
+lui $3, 0xFFFF
+add $4, $4, $3
+srl $3, $3, 16
+xor $2, $3, $4
+jr $0
+nop   #return 255

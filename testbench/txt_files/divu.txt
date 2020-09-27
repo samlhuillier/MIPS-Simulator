@@ -1,0 +1,6 @@
+addi $3, $0, 0xFFFFFFFF
+addi $4, $0, 0x1
+divu $3, $4
+mflo $2
+jr $0
+nop   #return 255, 4,294,967,295‬/1 -> modulo with 256

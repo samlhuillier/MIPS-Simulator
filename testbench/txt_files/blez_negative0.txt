@@ -1,0 +1,8 @@
+addi $3, $0, 0x80000000
+blez $3, $3, here
+jr $0
+here:
+  addi $4, $0, 0x8
+  add $2, $3, $4
+  jr $0
+nop   #return 7

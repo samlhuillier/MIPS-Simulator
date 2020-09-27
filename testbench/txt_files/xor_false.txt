@@ -1,0 +1,5 @@
+addi $3, $0, 0xF0F
+addi $4, $0, 0xF0F
+xor $2, $3, $4
+jr $0
+nop    #return 0

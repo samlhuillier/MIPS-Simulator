@@ -1,0 +1,6 @@
+li $3, 0xA
+li $4, 0x2
+div $3, $4
+mflo $2
+jr $0
+nop		#return 5

@@ -1,0 +1,5 @@
+addi $3, $0, 3
+addi $4, $0, 23
+sllv $2, $4, $3
+jr $0
+nop   #return 184

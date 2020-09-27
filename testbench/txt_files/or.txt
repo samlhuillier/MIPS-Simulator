@@ -1,0 +1,5 @@
+addi $3, $0, 0xFFF0
+addi $4, $0, 0xF
+or $2, $3, $4
+jr $0
+nop    #return 255

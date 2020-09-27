@@ -1,0 +1,4 @@
+addi $3, $0, 0xFFFF
+addi $2, $3, 0xFFFFF
+jr $0
+nop   #return 254

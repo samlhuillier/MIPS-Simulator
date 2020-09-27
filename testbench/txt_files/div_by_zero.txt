@@ -1,0 +1,6 @@
+addi $3, $0, 0xA
+addi $4, $0, 0
+div $3, $4
+mflo $2
+jr $0
+nop		#return 0

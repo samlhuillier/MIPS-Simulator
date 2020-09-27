@@ -1,0 +1,4 @@
+addi $3, $0, 0xF
+xor $2, $3, 13
+jr $0
+nop    #return 2

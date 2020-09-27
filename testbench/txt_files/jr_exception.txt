@@ -1,0 +1,3 @@
+addi $6, $0, 0xFFFFFFFF
+jr $6
+nop			#return 245, memory exception

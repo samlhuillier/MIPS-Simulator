@@ -1,0 +1,3 @@
+ori $2, $0, 0
+jr $0
+nop   #return 0

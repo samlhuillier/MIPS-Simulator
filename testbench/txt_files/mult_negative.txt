@@ -1,0 +1,6 @@
+addi $3, $0, -6
+addi $4, $0, 5
+mult $3, $4
+mflo $2
+jr $0
+nop    #return 226

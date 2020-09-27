@@ -1,0 +1,8 @@
+addi $3, $0, 0x1000
+addi $4, $0, 0x8
+nop
+sb $4, 0($3)
+lbu $5, 0($3)
+add $2, $5, $0
+jr $0
+nop   #return 8

@@ -1,0 +1,4 @@
+addi $3, $0, 0x7
+addi $2, $3, 0x5
+jr $0
+nop   #return 12

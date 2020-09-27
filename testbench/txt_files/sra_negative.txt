@@ -1,0 +1,4 @@
+addi $5, $0, -32
+sra $2, $5, 5
+jr $0
+nop   #return 255
